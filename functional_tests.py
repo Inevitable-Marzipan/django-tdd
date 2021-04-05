@@ -24,7 +24,7 @@ class NewVisitorTest(unittest.TestCase):
             input_box.get_attribute('placeholder'), 
             'Enter a to-do item')
 
-        inputbox.send_keys('Buy peacock feathers')
+        input_box.send_keys('Buy peacock feathers')
         input_box.send_keys(Keys.ENTER)
         time.sleep(1)
 
